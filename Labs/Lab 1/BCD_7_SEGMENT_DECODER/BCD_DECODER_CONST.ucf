@@ -1,0 +1,12 @@
+#NET "an<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "A" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "B" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "C" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "D" LOC = "P11";  # Bank = 2, Signal name = SW0
+NET "S1" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "S2_NOT" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "S3" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "S4_NOT" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "S5_NOT" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "S6_NOT" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "S7_NOT" LOC = "M12"; # Bank = 1, Signal name = CG

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o H:/DesignOfComputerBus/four_input_mux_four_input_mux_sch_tb_isim_beh.exe -prj H:/DesignOfComputerBus/four_input_mux_four_input_mux_sch_tb_beh.prj work.four_input_mux_four_input_mux_sch_tb work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/DesignOfComputerBus/four_input_mux.vf" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "H:/DesignOfComputerBus/mux_tbw.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module glbl
+Compiling module INV
+Compiling module AND3
+Compiling module OR4
+Compiling module four_input_mux
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package vl_types
+Compiling architecture behavioral of entity four_input_mux_four_input_mux_sc...
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Compiled 5 Verilog Units
+Built simulation executable H:/DesignOfComputerBus/four_input_mux_four_input_mux_sch_tb_isim_beh.exe
+Fuse Memory Usage: 49156 KB
+Fuse CPU Usage: 1029 ms

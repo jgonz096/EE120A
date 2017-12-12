@@ -1,0 +1,396 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: regfile2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "regfile2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "regfile2"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : regfile2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "H:/registerfile2/regfile2.vhf" in Library work.
+Entity <regfile2> compiled.
+Entity <regfile2> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <regfile2> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <regfile2> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_320> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_322> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_323> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_325> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_466> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_468> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_469> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_470> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_471> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_472> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_473> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_474> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_475> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_476> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_477> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_478> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_479> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_480> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_481> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_482> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_564> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_570> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_576> in unit <regfile2>.
+    Set user-defined property "INIT =  0" for instance <XLXI_582> in unit <regfile2>.
+Entity <regfile2> analyzed. Unit <regfile2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <regfile2>.
+    Related source file is "H:/registerfile2/regfile2.vhf".
+Unit <regfile2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <regfile2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block regfile2, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : regfile2.ngr
+Top Level Output File Name         : regfile2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 102
+#      AND2                        : 34
+#      AND3                        : 4
+#      AND3B1                      : 8
+#      AND3B2                      : 4
+#      AND4                        : 4
+#      AND4B1                      : 8
+#      AND4B2                      : 4
+#      OR2                         : 16
+#      OR3B1                       : 4
+#      OR3B2                       : 8
+#      OR3B3                       : 4
+#      OR4                         : 4
+# FlipFlops/Latches                : 24
+#      FD                          : 24
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 8
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       14  out of    960     1%  
+ Number of Slice Flip Flops:             24  out of   1920     1%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of     83    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 24    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.188ns (Maximum Frequency: 238.780MHz)
+   Minimum input arrival time before clock: 5.359ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: 6.322ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.188ns (frequency: 238.780MHz)
+  Total number of paths / destination ports: 48 / 20
+-------------------------------------------------------------------------
+Delay:               4.188ns (Levels of Logic = 3)
+  Source:            XLXI_320 (FF)
+  Destination:       XLXI_466 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_320 to XLXI_466
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.514   0.499  XLXI_320 (XLXN_934)
+     AND3:I2->O            1   0.612   0.357  XLXI_462 (XLXN_1092)
+     AND2:I1->O            1   0.612   0.357  XLXI_533 (XLXN_1079)
+     OR2:I1->O             1   0.612   0.357  XLXI_498 (XLXN_1000)
+     FD:D                      0.268          XLXI_479
+    ----------------------------------------
+    Total                      4.188ns (2.618ns logic, 1.570ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 148 / 24
+-------------------------------------------------------------------------
+Offset:              5.359ns (Levels of Logic = 4)
+  Source:            S0 (PAD)
+  Destination:       XLXI_466 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: S0 to XLXI_466
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            50   1.106   1.078  S0_IBUF (S0_IBUF)
+     AND3:I0->O            1   0.612   0.357  XLXI_349 (XLXN_1203)
+     AND2:I1->O            1   0.612   0.357  XLXI_531 (XLXN_1077)
+     OR2:I1->O             1   0.612   0.357  XLXI_497 (XLXN_999)
+     FD:D                      0.268          XLXI_480
+    ----------------------------------------
+    Total                      5.359ns (3.210ns logic, 2.149ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            XLXI_564 (FF)
+  Destination:       OUT0 (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_564 to OUT0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.357  XLXI_564 (OUT0_OBUF)
+     OBUF:I->O                 3.169          OUT0_OBUF (OUT0)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               6.322ns (Levels of Logic = 3)
+  Source:            S0 (PAD)
+  Destination:       S0_OUT (PAD)
+
+  Data Path: S0 to S0_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            50   1.106   1.078  S0_IBUF (S0_IBUF)
+     AND2:I0->O            1   0.612   0.357  XLXI_333 (S0_OUT_OBUF)
+     OBUF:I->O                 3.169          S0_OUT_OBUF (S0_OUT)
+    ----------------------------------------
+    Total                      6.322ns (4.887ns logic, 1.435ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.87 secs
+ 
+--> 
+
+Total memory usage is 262768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : four_input_mux.vf
+// /___/   /\     Timestamp : 06/25/2015 14:28:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog E:/DesignOfComputerBus/four_input_mux.vf -w E:/DesignOfComputerBus/four_input_mux.sch
+//Design Name: four_input_mux
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module four_input_mux(I0, 
+                      I1, 
+                      I2, 
+                      I3, 
+                      S0, 
+                      S1, 
+                      D);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input S0;
+    input S1;
+   output D;
+   
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_26;
+   
+   INV  XLXI_14 (.I(S1), 
+                .O(XLXN_22));
+   INV  XLXI_15 (.I(S0), 
+                .O(XLXN_21));
+   AND3  XLXI_16 (.I0(XLXN_21), 
+                 .I1(XLXN_22), 
+                 .I2(I0), 
+                 .O(XLXN_23));
+   AND3  XLXI_17 (.I0(S0), 
+                 .I1(XLXN_22), 
+                 .I2(I1), 
+                 .O(XLXN_24));
+   AND3  XLXI_18 (.I0(XLXN_21), 
+                 .I1(S1), 
+                 .I2(I2), 
+                 .O(XLXN_25));
+   AND3  XLXI_19 (.I0(S0), 
+                 .I1(S1), 
+                 .I2(I3), 
+                 .O(XLXN_26));
+   OR4  XLXI_20 (.I0(XLXN_26), 
+                .I1(XLXN_25), 
+                .I2(XLXN_24), 
+                .I3(XLXN_23), 
+                .O(D));
+endmodule

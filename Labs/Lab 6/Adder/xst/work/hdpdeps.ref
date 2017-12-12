@@ -1,0 +1,7 @@
+V3 11
+FL H:/Adder/Adder_schem.vhf 2015/07/14.19:54:20 P.58f
+EN work/Adder_schem 1436928875 FL H:/Adder/Adder_schem.vhf PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/Adder_schem/BEHAVIORAL 1436928876 \
+      FL H:/Adder/Adder_schem.vhf EN work/Adder_schem 1436928875 CP FD CP XOR2 \
+      CP AND2 CP XOR3 CP INV CP OR3 CP OR2

@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 timer_mod.ngc timer_mod.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o timer_mod_map.ncd timer_mod.ngd timer_mod.pcf 
+par -w -intstyle ise -ol high -t 1 timer_mod_map.ncd timer_mod.ncd timer_mod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml timer_mod.twx timer_mod.ncd -o timer_mod.twr timer_mod.pcf 
+vhdtdtfi -lib work timer_mod.vhd -prj Timer_Design -o timer_mod.spl -module timer_mod -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e timer_mod.spl E:/Timer_Design/timer_mod.sym 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+vhdtdtfi -lib work timer_mod.vhd -prj Timer_Design -o timer_mod.spl -module timer_mod -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e timer_mod.spl E:/Timer_Design/timer_mod.sym 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 
+xst -intstyle ise -ifn "E:/Timer_Design/timer_mod.xst" -ofn "E:/Timer_Design/timer_mod.syr" 

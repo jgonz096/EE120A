@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "H:/Adder/Adder_schem.xst" -ofn "H:/Adder/Adder_schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADDER_CONST.ucf -p xc3s100e-cp132-5 Adder_schem.ngc Adder_schem.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Adder_schem_map.ncd Adder_schem.ngd Adder_schem.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_schem_map.ncd Adder_schem.ncd Adder_schem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Adder_schem.twx Adder_schem.ncd -o Adder_schem.twr Adder_schem.pcf -ucf ADDER_CONST.ucf 
+bitgen -intstyle ise -f Adder_schem.ut Adder_schem.ncd 
+bitgen -intstyle ise -f Adder_schem.ut Adder_schem.ncd 
+xst -intstyle ise -ifn "H:/Adder/Adder_schem.xst" -ofn "H:/Adder/Adder_schem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADDER_CONST.ucf -p xc3s100e-cp132-5 Adder_schem.ngc Adder_schem.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Adder_schem_map.ncd Adder_schem.ngd Adder_schem.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_schem_map.ncd Adder_schem.ncd Adder_schem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Adder_schem.twx Adder_schem.ncd -o Adder_schem.twr Adder_schem.pcf -ucf ADDER_CONST.ucf 
+bitgen -intstyle ise -f Adder_schem.ut Adder_schem.ncd 

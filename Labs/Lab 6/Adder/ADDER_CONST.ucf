@@ -1,0 +1,16 @@
+NET "OUT4" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+NET "OUT3" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "OUT2" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "OUT1" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "OUT0" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+NET "B3" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "B2" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "B1" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "B0" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "A3" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "A2" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "A1" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "A0" LOC = "P11";  # Bank = 2, Signal name = SW0
+NET "LOAD" LOC = "G12"; # Bank = 0, Signal name = BTN0
+NET "CLOCK" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "CLOCK" CLOCK_DEDICATED_ROUTE = FALSE;

@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o
+BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf
+
+Design file:              BCD_7_SEG_DECODER.ncd
+Physical constraint file: BCD_7_SEG_DECODER.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |S1             |    7.896|
+A              |S2_NOT         |    8.795|
+A              |S3             |    8.519|
+A              |S4_NOT         |    8.224|
+A              |S5_NOT         |    8.621|
+A              |S6_NOT         |    8.452|
+A              |S7_NOT         |    7.867|
+B              |S1             |    7.925|
+B              |S2_NOT         |    8.519|
+B              |S3             |    8.505|
+B              |S4_NOT         |    8.175|
+B              |S5_NOT         |    8.607|
+B              |S6_NOT         |    8.111|
+B              |S7_NOT         |    7.395|
+C              |S1             |    9.268|
+C              |S2_NOT         |    8.503|
+C              |S3             |    9.684|
+C              |S4_NOT         |    9.329|
+C              |S5_NOT         |    9.786|
+C              |S6_NOT         |    8.102|
+C              |S7_NOT         |    8.226|
+D              |S1             |    7.895|
+D              |S2_NOT         |    7.697|
+D              |S3             |    8.366|
+D              |S4_NOT         |    8.076|
+D              |S5_NOT         |    8.468|
+D              |S6_NOT         |    7.327|
+D              |S7_NOT         |    7.106|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jun 30 11:03:11 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 149 MB
+
+
+

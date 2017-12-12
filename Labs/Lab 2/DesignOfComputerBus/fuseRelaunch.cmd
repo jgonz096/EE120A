@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "H:/DesignOfComputerBus/four_input_mux_four_input_mux_sch_tb_isim_beh.exe" -prj "H:/DesignOfComputerBus/four_input_mux_four_input_mux_sch_tb_beh.prj" "work.four_input_mux_four_input_mux_sch_tb" "work.glbl" 

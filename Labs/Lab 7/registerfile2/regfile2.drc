@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 17 15:15:54 2015
+
+drc -z regfile2.ncd regfile2.pcf
+
+DRC detected 0 errors and 0 warnings.

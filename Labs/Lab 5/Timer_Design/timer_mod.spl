@@ -1,0 +1,8 @@
+[Inputs]
+RESET
+CLOCK
+=COUNT_INI[7:0]=
+=COUNT_RESET[7:0]=
+[Outputs]
+TIMER
+[BiDir]

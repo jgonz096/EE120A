@@ -1,0 +1,93 @@
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 
+xst -intstyle ise -ifn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.xst" -ofn "H:/BCD_7_SEGMENT_DECODER/BCD_7_SEG_DECODER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_DECODER_CONST.ucf -p xc3s100e-cp132-4 BCD_7_SEG_DECODER.ngc BCD_7_SEG_DECODER.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ngd BCD_7_SEG_DECODER.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_SEG_DECODER_map.ncd BCD_7_SEG_DECODER.ncd BCD_7_SEG_DECODER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BCD_7_SEG_DECODER.twx BCD_7_SEG_DECODER.ncd -o BCD_7_SEG_DECODER.twr BCD_7_SEG_DECODER.pcf -ucf BCD_DECODER_CONST.ucf 
+bitgen -intstyle ise -f BCD_7_SEG_DECODER.ut BCD_7_SEG_DECODER.ncd 

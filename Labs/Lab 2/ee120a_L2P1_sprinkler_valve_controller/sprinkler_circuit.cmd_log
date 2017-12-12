@@ -1,0 +1,18 @@
+sch2hdl -intstyle ise -family aspartan3e -flat -suppress -vhdl sprinkler_circuit_drc.vhf -w Z:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.sch 
+xst -intstyle ise -ifn "H:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "H:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
+netgen -intstyle ise -ar Structure -tm sprinkler_circuit -w -dir netgen/synthesis -ofmt vhdl -sim sprinkler_circuit.ngc sprinkler_circuit_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-cpg132-4 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xa3s100e-cpg132-4 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "E:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "E:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kajgsrja.ucf -p xa3s100e-cpg132-4 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xa3s100e-cpg132-4 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf kajgsrja.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kajgsrja.ucf -p xa3s100e-cpg132-4 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xa3s100e-cpg132-4 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf kajgsrja.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 

@@ -1,0 +1,10 @@
+V3 7
+FL E:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.vhf 2015/06/25.16:28:26 P.20131013
+EN work/sprinkler_circuit 1435610657 \
+      FL E:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1364358223 LB UNISIM \
+      PH unisim/VCOMPONENTS 1364358225
+AR work/sprinkler_circuit/BEHAVIORAL 1435610658 \
+      FL E:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.vhf \
+      EN work/sprinkler_circuit 1435610657 CP AND4 CP INV
+FL H:/ee120a_L2P1_sprinkler_valve_controller/sprinkler_circuit.vhf 2015/06/25.09:39:36 P.20131013

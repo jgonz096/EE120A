@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\Adder\Adder_schem.ncd
+OUTFILE=H:\Adder\Adder_schem.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=H:\Adder
+LICENSE=WebPack
+USER_INFO=211061627_0_0_612

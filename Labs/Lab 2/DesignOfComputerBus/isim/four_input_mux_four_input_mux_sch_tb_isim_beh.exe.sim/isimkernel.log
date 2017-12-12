@@ -1,0 +1,29 @@
+Command line:
+   four_input_mux_four_input_mux_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1768
+
+Thu Oct 08 11:39:11 2015
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 506.774 Meg
+
+ Total Signals          : 83
+ Total Nets             : 58
+ Total Signal Drivers   : 25
+ Total Blocks           : 14
+ Total Primitive Blocks : 12
+ Total Processes        : 26
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 622
+Total Line Count : 32
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 506.774 Meg
+
+Thu Oct 08 11:39:52 2015
+

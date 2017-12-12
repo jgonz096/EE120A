@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\registerfile2\regfile2.ncd
+OUTFILE=H:\registerfile2\regfile2.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=H:\registerfile2
+LICENSE=WebPack
+USER_INFO=211061627_0_0_612
